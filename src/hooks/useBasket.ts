@@ -11,7 +11,7 @@ const useBasketHook = () => {
   ) as IBasketContext;
 
   useEffect(() => {
-    setBasketItems(JSON.parse(localStorage.getItem(LOCALSTORAGE_NAME) || ''));
+    setBasketItems(JSON.parse(localStorage.getItem(LOCALSTORAGE_NAME) || '[]'));
   }, [setBasketItems]);
 
   const findAllItems = (): IBasketItem[] => basketItems;
