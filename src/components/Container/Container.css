@@ -1,0 +1,12 @@
+.container {
+  width: 81rem;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+}
+
+.content-wrapper {
+  margin-top: 25px;
+}

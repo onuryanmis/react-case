@@ -1,0 +1,23 @@
+.basket-content {
+  position: absolute;
+  right: 0;
+  width: 300px;
+  border: 1px solid rgb(232, 232, 232);
+  margin-top: -1px;
+  padding: 14px 20px;
+  background: white;
+}
+
+.basket-content-hide {
+  display: none;
+}
+
+p.empty-basket-content {
+  color: #707070;
+  font-size: 15px;
+}
+
+p.empty-basket-content svg {
+  font-size: 21px;
+  color: #ef5a00;
+}

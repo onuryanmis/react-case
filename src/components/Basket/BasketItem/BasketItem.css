@@ -1,0 +1,37 @@
+.basket-item {
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.basket-item-info {
+  padding-left: 10px;
+}
+
+.basket-item-info p {
+  margin-top: 0;
+  font-size: 14px;
+  min-height: 40px;
+  color: #4c4c4c;
+}
+
+.basket-item-info button {
+  padding: 8px 25px;
+  border: 1px solid red;
+  background: white;
+  color: red;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 500ms all;
+}
+
+.basket-item-info button:hover {
+  background: red;
+  color: #fff;
+  transition: 500ms all;
+}
+
+.basket-item img {
+  width: 87px;
+  height: 87px;
+  border: 1px solid rgb(232, 232, 232);
+}

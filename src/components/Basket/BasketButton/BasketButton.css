@@ -1,0 +1,28 @@
+.basket-button {
+  padding: 15px 30px;
+  background: #fff;
+  border: 1px solid rgb(232, 232, 232);
+  color: #707070;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.basket-button-wrapper {
+  position: relative;
+}
+
+.basket-button-count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -5px;
+  top: -5px;
+  position: absolute;
+  background: red;
+  width: 18px;
+  height: 18px;
+  font-size: 14px;
+  border-radius: 100%;
+  color: #fff;
+}
